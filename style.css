@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("images/bckgrnd.png");
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Noto Sans', sans-serif;
+}
+main{
+	width: 60%;
+	background-color: #FFFFFF;
+	margin: 100px auto 30px auto;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+}
+main h1,main h2,main h3, main h4, main h5{
+	color: #1B213B;
+	text-align: center;
+}
+main p, main dl, main ul{
+	color: #293157;
+	margin: 15px;
+	padding: 15px;
+	text-align: justify;
+}
+main a, main a:hover, main a:visited{
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 15px;
+	width: 30%;
+	display: block;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: 1px solid #FFFFFF;
+	background-color: #1B1C49;
+	border-radius: 5px;
+}
+main a:hover{
+	box-shadow: 5px 5px 5px black;
+}
+main span p{
+	text-align: center;
+}
+main dl dt{
+	margin-top: 20px;
+}
+main dt{
+	margin-bottom: 15px;
+	color: #1B213B;
+	font-weight: bold;
+}
+main img{
+	width: 30%;
+	display: block;
+	margin: 0 auto;
+	border: 10px groove #417D8F;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 60%;
+	margin: 0 auto;
+	padding: 0 15px;
+	justify-content: center;
+	background-color: #417D8F;
+	color: #FFFFFF;
+	border-radius: 0 0 5px 5px;
+	position: fixed;
+	top: 0;
+	left: 0px; right: 0px;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+nav li{
+	margin-left: 20px;
+}
+nav a, nav a:hover, nav a:visited{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav a:hover{
+	font-style: italic;
+}
+nav li.current{
+	background-color: #1B1C49;
+	border: 1px solid #FFFFFF;
+	padding: 0 20px;
+	border-radius: 5px;
+}
+footer{
+	margin: 30px auto;
+	width: 60%;
+	text-align: center;
+}
+footer a, footer a:hover, footer a:visited{
+	padding: 15px;
+	color: white;
+}
+footer i.current{
+	color: black;
+}
